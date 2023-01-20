@@ -1,0 +1,53 @@
+header{
+    background-color: var(--Amarillo);
+    padding: 20px 0;
+    font-size: var(--CuerposDeTexto);
+}
+header .logo img, header .busqueda{
+width: 45%;
+padding: 0 20px;
+}
+header .busqueda i{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid var(--GrisOscuro);
+    border-radius: 4px;
+    font-size: var(--Titulares);
+}
+header p{
+    margin: 20px 0;
+    text-align: center;
+}
+header .links{
+    display: none;
+}
+header .links ul{
+margin: 0 0 20px;
+}
+header .links ul i{
+    margin:0 3px;
+}
+header .burger-menu{
+    text-align: center;
+}
+header .burger-menu i{
+    background-color: var(--Celeste);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/*tablet*/
+
+@media (min-width: 461px){
+    header .burger-menu{
+       display: none;
+    }
+    header .links{
+        display: block;
+    }
+}
+
+/*desktop*/
+
+@media (min-width: 769px){}

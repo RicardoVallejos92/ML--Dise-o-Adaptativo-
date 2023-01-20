@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: var(--fuente);
+}
+body{
+    background-color: var(--GrisClaro);
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
